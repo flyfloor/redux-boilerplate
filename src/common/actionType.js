@@ -1,0 +1,1 @@
+export const FIND_ONE_USER = 'FIND_ONE_USER'

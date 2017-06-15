@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Routes from './route';
 
-export class App extends Component {
-    render() {
-        return (
-            <div>this is App component</div>
-        );
-    }
-}
-ReactDOM.render(<App/>, document.getElementById('root'))
+ReactDOM.render(<Routes/>, document.getElementById('root'))
